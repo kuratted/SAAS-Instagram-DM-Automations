@@ -8,7 +8,7 @@ import {
   trackResponse,
 } from "@/actions/webhook/queries";
 import { sendDm, sendPrivateMessage } from "@/lib/fetch";
-// import { openai } from "@/lib/openai";
+import { openai } from "@/lib/openai";
 import { client } from "@/lib/prisma";
 import { NextRequest, NextResponse } from "next/server";
 
