@@ -8,7 +8,7 @@ export async function GET() {
 
   // const priceId = process.env.STRIPE_SUBSCRIPTION_PRICE_ID;
 
-  const session = ""
+  string session = ""
 
   // await stripe.checkout.sessions.create({
   //   mode: "subscription",
